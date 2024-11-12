@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 3px solid #777;
+  border-right: 3px solid #777;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.square--revealed {
+  border: 1px solid #777;
+}
+
+.square--revealed[data-value="1"] {
+  color: #0000ff;
+}
+.square--revealed[data-value="2"] {
+  color: #027b00;
+}
+.square--revealed[data-value="3"] {
+  color: #ff0000;
+}
+.square--revealed[data-value="4"] {
+  color: #00007b;
+}
+.square--revealed[data-value="5"] {
+  color: #00007b;
+}
+.square--revealed[data-value="6"] {
+  color: #00007b;
+}
+.square--revealed[data-value="7"] {
+  color: #000000;
+}
+.square--revealed[data-value="8"] {
+  color: #7b7b7b;
+}
